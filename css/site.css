@@ -800,15 +800,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     z-index: 400;
     border-top: 1px dashed #AAB2BD;
     padding: 40px 0 20px;
-    background-color: #f5f5f5;
+    background-color: rgba(255,255,255,0.6);
 }
 .site-footer a,
 .site-footer .connect {
-    color: #50c1e9;
+    color: #8b0921;
 }
 .site-footer a:hover,
 .site-footer a:active {
-    color: #50c1e9;
+    color: #8b0921;
     text-decoration: none;
 }
 .site-footer .row .col-md-4 {
