@@ -20,7 +20,6 @@
             function showHidden() {
                 document.getElementById('hidden').style.display = 'block';
             }
-
             </script>
       </head>
       <body class="home">
@@ -144,7 +143,7 @@
                                                             <option value="24">24</option>
                                                             <option value="25">25</option>
                                                       </select>
-                                                      <a href="tack.html" style="display:none;" id="hidden"><img src="img/platser.png"></a>
+                                                      <a href="#" style="display:none;" id="hidden" data-toggle="modal" data-target="#myModal"><img src="img/platser.png" border=0></a>
                                                 </div>
                                           </div>
                                     </div>
@@ -200,6 +199,50 @@
                                           <a href="#">Trodin, Matilda</a>&nbsp;&bull;&nbsp;
                                           <a href="#">Ashraf, Pouya</a>
                                     </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <script src="js/jquery-1.10.1.min.js"></script>
+            <script src="http://dev.leviora.se/common/js/jquery-migrate-1.2.1.min.js"></script>
+            <script src="http://dev.leviora.se/common/js/jquery-ui-1.10.3.min.js"></script>
+            <script type="text/javascript" src="js/site.min.js"></script>
+            
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+                  <div class="modal-dialog ">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Ange dina uppgifter</h4>
+                              </div>
+                              <div class="modal-body">
+                                    <table class="table">
+                                          <tr>
+                                                <td>Förnamn</td>    
+                                                <td><input type="text" class="form-control"></td>
+                                          </tr>
+                                    
+                                          <tr>
+                                                <td>Efternamn</td>
+                                                <td><input type="text" class="form-control"></td>
+                                          </tr>
+                                          <tr>
+                                                <td>E-post</td>
+                                                <td><input type="text" class="form-control"></td>
+                                          </tr>
+                                          <tr>
+                                                <td>Telefonnummer</td>
+                                                <td><input type="text" class="form-control"></td>
+                                          </tr>
+                                          <tr>
+                                                <td>Kortnummer</td>
+                                                <td><input type="text" class="form-control" value="xxx-xxxx-xxxx-xxxx-xxxx"></td>
+                                          </tr>
+                                    </table>
+                              </div>
+                              <div class="modal-footer">
+                                    <a href="tack.html" class="btn btn-primary">Köp biljetter</a>
                               </div>
                         </div>
                   </div>
